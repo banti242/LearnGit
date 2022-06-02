@@ -1,0 +1,31 @@
+
+To get all students
+--------------------
+Method: GET
+URL: http://localhost:8080/PradeepRestProject/webresources/com.org.stu.student
+
+To get students by Id
+--------------------
+Method: GET
+URL: http://localhost:8080/PradeepRestProject/webresources/com.org.stu.student/{id}
+
+Delete students by Id
+--------------------
+Method: DELETE
+URL: http://localhost:8080/PradeepRestProject/webresources/com.org.stu.student/{id}
+
+Create student
+--------------------
+Method: POST
+URL: http://localhost:8080/PradeepRestProject/webresources/com.org.stu.student
+<student>
+<age>99</age>
+<name>Maneesh</name>
+<subject>JMeter</subject>
+</student>
+
+Update student
+--------------------
+Method: PUT
+URL: http://localhost:8080/PradeepRestProject/webresources/com.org.stu.student/{id}
+<student><age>98</age><id>294</id><name>ManeeshM</name><subject>JMeterM</subject></student>
